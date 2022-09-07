@@ -6,7 +6,7 @@
 # Executar
  Parar abrir o projeto utilize node.js
  
- npx install create-react-app
+ npm install create-react-app
  npm start
  
  Utilizando os comandos acima conseguira abrir o projeto e visualizar ele perfeitamente.
