@@ -1,0 +1,38 @@
+.add-task-container {
+	margin: 15px 0;
+	width: 100%;
+	display: flex;
+}
+
+.add-task-input {
+	height: 40px;
+	padding: 0 10px;
+	border-radius: 5px;
+	border: none;
+	flex: 2;
+	background-color: #444;
+	color: #eee;
+	font-size: 16px;
+}
+
+.add-task-button-container {
+	margin-left: 10px;
+	flex: 1;
+}
+
+.add-task-input:hover,
+.add-task-input:focus {
+	transition: 0.2s;
+	background: #555;
+}
+
+@media (max-width: 800px) {
+	.add-task-container {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.add-task-button-container {
+		margin: 0;
+	}
+}

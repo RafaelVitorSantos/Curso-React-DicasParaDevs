@@ -1,0 +1,23 @@
+.container {
+	max-width: 500px;
+	margin: 30px auto;
+	overflow: auto;
+	min-height: 300px;
+	border: 2px solid chartreuse;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+h1, h2, p{
+	cursor: default;
+}
+
+@media (max-width: 800px) {
+	.container {
+		padding: 5px;
+	}
+
+	h1{
+		font-size: 25px;
+	}
+}
